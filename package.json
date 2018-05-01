@@ -3,12 +3,17 @@
   "version": "5.6.0",
   "description": "React Tag Autocomplete is a simple tagging component ready to drop in your React projects.",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "main": "dist/ReactTags.cjs.js",
   "module": "dist/ReactTags.esm.js",
 =======
   "main": "dist-es5/ReactTags.js",
   "module": "dist-es6/ReactTags.js",
 >>>>>>> Use ES6 module syntax, add pkg.module to manifest, bump Buble
+=======
+  "main": "dist/ReactTags.cjs.js",
+  "module": "dist/ReactTags.esm.js",
+>>>>>>> Update dev dependencies
   "scripts": {
     "prepare": "npm run build:dist",
     "pretest": "npm run lint && npm run build:dist",
